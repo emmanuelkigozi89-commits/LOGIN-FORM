@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>LOGIN FORM</title>
+</head>
+<body>
+    <ins><div id="error"></div></ins>
+    <form id="form" action="/" method="get">
+    <div class="main">
+    <div class="leftbar">
+        <H3>Sign-in</H3>
+        <div class="username">
+        <P>USER NAME:</P><input type="text" class="input" id="name" name="name" required="required">
+        </div><br>
+        <div class="username">
+        <P>PHONE-NUMBER:</P><input type="text" class="input" id="Phone_number" Phone-Number="Phone-Number" required="required">
+        </div><BR>
+        <div class="username">
+        <P>EMAIL:</P><input type="text" class="input" id="email" email="email" required="required">
+        </div><br>
+         <div class="username">
+        <P>PASSWORD:</P><input type="text" class="input" id="ppassword" ppassword="ppassword" required="required">
+        </div><br>
+
+        <!-- <ins><div></div></ins> or sign-in with<ins><div></div></ins> -->
+        <BUtton id="tab-signup" onclick="switchtab('signup')" >SIGN-IN</BUtton>
+    </div>
+    <div class="rightbar">
+        <div class="#">
+            <h4>Welcome back !</h4><br><br>
+            <p class="content">
+                welcome back! we are so happy to have you here it's great to see you 
+                again.we hope you had a safe and enjoyable time away
+            </p>
+        </div><br>
+        <ins><div class="lower">No account yet? Signup</div></ins>
+    </div>
+    </div>
+ </form>
+ <script defer src="script.js"></script>
+</body>
+</html>
